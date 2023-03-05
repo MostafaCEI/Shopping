@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+}
+
+.searsh {
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+
+.searsh input {
+    border: none;
+    outline: none;
+    background-color: rgb(226, 235, 235);
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
+.name h1 {
+    font-size: 30px;
+    border: 5px solid rgb(56, 4, 56);
+    padding: 5px;
+}
+
+.head_icon i {
+    
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(56, 4, 56);
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin: 5px;
+
+}
+
+.nav_bar a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(56, 4, 56);
+}
+
+.main_sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    width: 100%;
+    height: 700px;
+}   
+
+.main_sec img {
+    width: 500px;
+    height: 300px;
+    margin: 50px;
+}
+
+.main_p h1 {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.main_p p{
+    font-size: 20px;
+}
+
+.shop_button {
+    background-color: blueviolet;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+
+.mid_support {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.mid_support div {
+    margin: 20px ;
+}
+
+.mid_support div i {
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+    color: rgb(150, 22, 150)
+    
+}
+
+
+.collection {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+.collection img {
+    position: relative;
+    width: 300px;
+    height: 100%;
+    image-rendering: ;
+    margin: 40px;
+}
+
+.collection2 > h3 {
+    position: absolute;
+    bottom: 220px;
+    z-index: 2;
+    font-size: 50px;
+    margin-left: 50px;
+    color: aliceblue;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5);
+} 
+.collection2 > p {
+    position: absolute;
+    bottom: 280px;
+    z-index: 2;
+    font-size: 20px;
+    margin-left: 50px;
+    color: aliceblue;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
